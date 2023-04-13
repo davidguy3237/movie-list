@@ -30,7 +30,6 @@ const App = (props) => {
   }, [searchText]);
 
   useEffect(() => {
-    console.log(moviesDatabase);
     setMovies(moviesDatabase);
   }, [moviesDatabase])
 
